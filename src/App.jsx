@@ -1,7 +1,10 @@
+import Navbar from "./components/Navbar"
 function App(){
   return(
     <>
-    <div className="min-h-screen flex flex-col gb-gray-50">
+    
+    <div className="min-h-screen flex flex-col bg-gray-50">
+      <Navbar/>
 
     </div>
     
@@ -9,3 +12,4 @@ function App(){
   )
   
 }
+export  default App
